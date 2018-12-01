@@ -1,0 +1,63 @@
+/*Limpar Formatações Padrões*/
+*{
+margin: 0;
+padding: 0;
+}
+
+/*Corpo do blog*/
+body{
+	font-size: 16px;
+	font-family: "Trebuchet MS",  sans-serif;
+	background: #f3f3f3; 
+
+/*IDs*/
+}
+#navegacao{
+	background: #fff;
+	border-bottom: 1px solid #d8d8d8;
+	height: 45px;
+}
+#area{
+	width: 750px;
+	margin: 0 auto;
+	
+}
+
+#menu{
+	float: right;
+	padding: 12px 0;
+}
+
+#logo{
+	float: left;
+	padding: 3px 0;
+}
+
+/********************************
+*****Formatação do Menu********/
+a{
+	text-decoration: none;
+	padding: 5px 10px;
+}
+
+/*links não visitados*/
+a:link{
+	color: #838383;
+}
+
+/*links visitados*/
+a:visited{
+	color: #838383;
+}
+/*links hover*/
+a:hover{
+	background:#b9c941; 
+	color: #fff ;
+}
+/*links ativos - Cliacados*/
+
+/*Classes*/
+.verde{
+	color: #b9c941;
+}
+
